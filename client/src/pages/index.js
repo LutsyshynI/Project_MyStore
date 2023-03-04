@@ -1,0 +1,5 @@
+export * from './AuthPage/AuthPage'
+export * from './AdminPage/AdminPage'
+export * from './BasketPage/BasketPage'
+export * from './DevicePage/DevicePage'
+export * from './MainShopPage/MainShopPage'

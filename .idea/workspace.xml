@@ -4,25 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8606e0a5-1232-40b8-9b69-b09097f1172d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/server/middelware/AuthMiddleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/middelware/RoleMiddleware.js" afterDir="false" />
+    <list default="true" id="8606e0a5-1232-40b8-9b69-b09097f1172d" name="Changes" comment="+AUTH">
+      <change afterPath="$PROJECT_DIR$/client/src/components/BrandBar/BrandBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/DeviceItem/DeviceItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/DeviceList/DeviceList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/NavBar/NavBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/TypeBar/TypeBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/modals/CreateBrand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/modals/createDevice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/modals/createType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/configs/babel-plugin-macros.config..js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/configs/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/configs/consts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/configs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/layouts/mainLayout/mainLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/layouts/registeredLayout/registeredLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/layouts/unregisteredLayout/unregisteredLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/AdminPage/AdminPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/AuthPage/AuthPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/BasketPage/BasketPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/DevicePage/DevicePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/MainShopPage/MainShopPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/redux/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/redux/slices/authSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/redux/slices/brandSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/redux/slices/deviceSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/redux/slices/typeSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/redux/slices/userSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/brandController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/brandController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/deviceController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/deviceController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_MyStore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Project_MyStore.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/controllers/typeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/typeController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/userController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/error/ApiError.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/error/ApiError.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/middelware/ErrorMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middelware/ErrorMiddleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/models/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/models.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/brandRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/brandRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/deviceRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/deviceRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/typeRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/typeRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/userRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/userRouter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,22 +68,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.17.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.12&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "16.17.0",
+    "javascript.nodejs.core.library.typings.version": "16.18.12",
+    "js.last.introduce.type": "CONST",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ihor\Documents\JS Course\React\Project_MyStore" />
@@ -85,8 +101,19 @@
       <workItem from="1676370454934" duration="13639000" />
       <workItem from="1676455310422" duration="65000" />
       <workItem from="1676455392162" duration="10424000" />
-      <workItem from="1676534007196" duration="6750000" />
+      <workItem from="1676534007196" duration="7477000" />
+      <workItem from="1676629770896" duration="1943000" />
+      <workItem from="1676970469433" duration="24645000" />
+      <workItem from="1677495186679" duration="68403000" />
     </task>
+    <task id="LOCAL-00001" summary="+AUTH">
+      <created>1676549850323</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676549850323</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,5 +129,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="+AUTH" />
+    <option name="LAST_COMMIT_MESSAGE" value="+AUTH" />
   </component>
 </project>
